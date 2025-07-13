@@ -1,0 +1,16 @@
+{
+    "name": "kevdel-page/contact-form",
+    "description": "Formulario de contacto con PHPMailer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+} 

@@ -1,0 +1,19 @@
+{
+  "name": "kevdel-page-contact-form",
+  "version": "1.0.0",
+  "description": "Formulario de contacto con PHPMailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "phpmailer",
+    "contact-form",
+    "smtp"
+  ],
+  "author": "KevDel",
+  "license": "MIT",
+  "dependencies": {
+    "phpmailer": "^6.8.0"
+  }
+} 

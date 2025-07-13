@@ -1,1 +1,31 @@
-.vercel
+# Dependencias de Composer
+/vendor/
+composer.lock
+
+# Archivos de configuración sensibles (opcional)
+# assets/mail/config.php
+
+# Archivos de prueba (eliminar en producción)
+assets/mail/test-smtp.php
+
+# Logs de PHP
+*.log
+error_log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de backup
+*.bak
+*.backup
